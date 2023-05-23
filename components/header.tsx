@@ -87,6 +87,12 @@ export default function Header() {
           <li className={styles.navItem}>
             <Link href="/me">Me</Link>
           </li>
+          <li className={styles.navItem}>
+            <Link href="/zod/page">Zod Form</Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/todo/page">Todo App</Link>
+          </li>
         </ul>
       </nav>
     </header>
